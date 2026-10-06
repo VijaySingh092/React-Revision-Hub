@@ -2,6 +2,29 @@ import React from 'react'
 import { useState } from 'react'
 import { useEffect } from 'react'
 
+// useEffect lets you run side-effect code after React renders, and the dependency array controls when that effect should run.
+
+// useEffect(() => {
+    // code to execute
+// }, [dependencies]);
+
+// It has 2 parts:
+// Function → code you want to run
+// Dependency array → tells React when to run it
+
+
+// Some operations are called side effects because they interact with something outside the normal rendering process.
+// Common examples:
+// . Fetching API data
+// . Starting a timer
+// . Setting up an event listener
+// . Changing the document title
+// . Subscribing to something
+// . Running code when a state/value changes
+
+
+
+
 const App = () => {
   // const [num,setNum]=useState(0)
   // const [num2,setNum2] = useState(1)
