@@ -1,6 +1,17 @@
-import React from 'react'
 import axios from 'axios'
 import { useState } from 'react'
+
+// An API is a way for two software systems to communicate with each other.
+
+// An API call is a request made by your application to another server to send or receive data.
+
+// fetch and Axios are used in JavaScript/React to make HTTP/API requests.
+// They allow your frontend to communicate with a backend server or external API.
+
+//  fetch() is a built-in JavaScript Web API used to make HTTP requests.
+
+// Axios is a third-party JavaScript library used for making HTTP requests.
+// Unlike fetch, you need to install it
 
 const App = () => {
 
