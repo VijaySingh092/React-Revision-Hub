@@ -4,7 +4,7 @@ import Nav2 from './Nav2'
 import { ThemeDataContext } from '../context/ThemeContext'
 
 const Navbar = () => {
-   const [theme]=useContext(ThemeDataContext)
+   const [theme]=useContext(ThemeDataContext)  // using data from the context
   return (
     <div className={theme}>
       <h2>React</h2>

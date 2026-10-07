@@ -4,8 +4,8 @@ import { ThemeDataContext } from '../context/ThemeContext'
 
 const Button = () => {
 
-    const [theme,setTheme]=useContext(ThemeDataContext)
-    const changeTheme=()=>{
+    const [theme,setTheme]=useContext(ThemeDataContext)    // using data from context
+    const changeTheme=()=>{  // changes the theme using setTheme from context
        setTheme('dark')
     }
   return (
