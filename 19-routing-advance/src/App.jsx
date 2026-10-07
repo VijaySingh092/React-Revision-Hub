@@ -20,10 +20,16 @@ const App = () => {
       <Nav2/>
      <Routes>
         <Route path='/' element={<Home/>} />
+
         <Route path='/about' element={<About/>}/>
+
         <Route path='/courses' element={<Courses/>}/>
+        
+{/* Dynamic routing means creating routes where part of the URL changes dynamically depending on the data. */}
         <Route path='/courses/:courseId' element={<CourseDetail/>}/>
-        <Route path='/product' element={<Product/>}>
+
+{/* Nested routing means putting one route inside another route. It is useful when a page has sub-pages.*/}
+        <Route path='/product' element={<Product/>}> 
         <Route path='men' element={<Men/>}/>
         <Route path='women' element={<Women/>}/>
         <Route path='kids' element={<Kids/>}/>

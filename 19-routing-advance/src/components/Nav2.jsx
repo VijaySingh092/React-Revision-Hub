@@ -1,6 +1,8 @@
 import React from 'react'
 import {useNavigate} from 'react-router-dom'
 
+// useNavigate() is a React Router hook that lets you navigate to another route using JavaScript.
+
 const Nav2 = () => {
       const navigate = useNavigate()
     
